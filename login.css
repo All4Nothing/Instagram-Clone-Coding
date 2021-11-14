@@ -32,16 +32,17 @@ body{
     width: 270px;
     height: 36px;
     padding: 8px;
-    color: rgba(var(38, 38, 38, 38), 1);
+    color: rgba(var(--ild, 38, 38, 38), 1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
 }
 
 .loginBtn {
+    display: block;
     width: 268px;
     height: 30px;
-    margin: 15px;
+    margin: auto;
     background-color: #b9dffc;
     color: white;
     border: none;
@@ -61,8 +62,8 @@ input{
 
 footer{
     position: relative;
-    top: 65px;
-    color: rgba(var(0, 0, 55, 107), 1);
+    top: 75px;
+    color: rgba(var(--fe0, 0, 55, 107), 1);
     font-size: 12px;
     text-align: center;
 }
